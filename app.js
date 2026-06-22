@@ -229,7 +229,7 @@ const slides = [
         <p>Project Manager / Scrum Master<br /><span class="member-name">Như Quỳnh</span></p>
         <p>Frontend Developers<br /><span class="member-name">Tú An, Thuỷ Tiên, Hoài Nụ</span></p>
         <p>UI/UX Designer<br /><span class="member-name">Ngọc Ánh, Bích Quyên</span></p>
-        <p>Product Owner / Quality Engineer<br /><span class="member-name">Thanh Trúc</span></p>
+        <p>Product Owner / Quality Engineer<br /><span class="member-name">Thiên Trúc</span></p>
       </section>
       <section>
         <h3>Tools</h3>
