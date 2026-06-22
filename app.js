@@ -150,11 +150,16 @@ const slides = [
             <div class="arrow">→</div>
             <div class="step-item">
               <div class="step-number">2</div>
-              <p><strong>Check In</strong></p>
+              <p><strong>Set Goal</strong></p>
             </div>
             <div class="arrow">→</div>
             <div class="step-item">
               <div class="step-number">3</div>
+              <p><strong>Check In</strong></p>
+            </div>
+            <div class="arrow">→</div>
+            <div class="step-item">
+              <div class="step-number">4</div>
               <p><strong>Build Streaks</strong></p>
             </div>
           </div>
