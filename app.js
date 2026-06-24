@@ -34,7 +34,7 @@ const slides = [
     `,
   },
   {
-    title: "Presentation Outline",
+    title: "Agenda",
     content: `
       <ol class="timeline">
         <li><span>1</span>Introduction</li>
@@ -58,6 +58,28 @@ const slides = [
       ${Mascot({ state: "thinking" })}
     `,
   },
+{
+  title: "A Habit Story",
+  className: "image-slide",
+  content: `
+    <div class="image-showcase">
+      <div class="image-item">
+        <img src="assets/family.jpg" alt="Family">
+        <p>Me and my brother</p>
+      </div>
+
+      <div class="image-item">
+        <img src="assets/mess.png" alt="Message">
+        <p>The message</p>
+      </div>
+
+      <div class="image-item">
+        <img src="assets/streak.jpg" alt="Streak">
+        <p>The result</p>
+      </div>
+    </div>
+  `,
+},
   {
     title: "Our Solution",
     className: "with-mascot",
