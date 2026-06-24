@@ -198,12 +198,43 @@ const slides = [
     title: "Live Demo",
     className: "demo with-mascot",
     content: `
-      <div class="phone">
+      <div class="phone habit-phone">
         <div class="phone-top"></div>
-        <h3>Morning Routine</h3>
-        <div class="progress-ring">78%</div>
-        <p>Tap your NFC tag or check in from the app.</p>
-        <button type="button">Check In</button>
+        <div class="habit-app-header">
+          <div>
+            <span class="habit-date">Today</span>
+            <h3>Daily Habits</h3>
+          </div>
+          <span class="habit-streak">12 day streak</span>
+        </div>
+        <div class="habit-summary">
+          <div class="progress-ring">78%</div>
+          <div>
+            <p class="summary-label">4 of 5 completed</p>
+            <p class="summary-copy">Small wins are blooming today.</p>
+          </div>
+        </div>
+        <div class="week-strip" aria-label="Weekly habit progress">
+          <span class="done">M</span><span class="done">T</span><span class="done">W</span><span class="active">T</span><span>F</span><span>S</span><span>S</span>
+        </div>
+        <div class="habit-list">
+          <article class="habit-item is-done">
+            <span class="habit-check"></span>
+            <div><strong>Drink Water</strong><small>8 glasses</small></div>
+            <b>Done</b>
+          </article>
+          <article class="habit-item is-done">
+            <span class="habit-check"></span>
+            <div><strong>Read 15 min</strong><small>Growth goal</small></div>
+            <b>Done</b>
+          </article>
+          <article class="habit-item">
+            <span class="habit-check"></span>
+            <div><strong>Evening Walk</strong><small>20 minutes</small></div>
+            <b>Todo</b>
+          </article>
+        </div>
+        <button type="button">Track Habit</button>
       </div>
       ${Mascot({ state: "happy" })}
     `,
@@ -213,7 +244,7 @@ const slides = [
     className: "with-mascot",
     content: `
       <div class="roadmap">
-        <span>AI Recommendations</span><span>Smart Reminders</span><span>Community Challenges</span><span>Wearable Integration</span><span>Analytics & Insights</span>
+        <span>AI Recommendations</span><span>Smart Reminders</span><span>Community Features</span><span>Wearable Integration</span><span>Analytics & Insights</span>
       </div>
       <p class="vision">Transform Bloom from a habit tracker into a personal growth companion.</p>
       ${Mascot({ state: "encouraging" })}
